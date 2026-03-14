@@ -1,0 +1,97 @@
+/* internal css  */
+h3 {
+  color: green;
+  -webkit-text-stroke: 0.5px black;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  /* uses arial first then helvetica if arial is not found then any sans-serif font */
+}
+li {
+  font-size: 18px;
+  background-color: blanchedalmond;
+  width: 50%;
+}
+#grey {
+  /* id er belay # dite hoy */
+  background-color: lightgray;
+  width: 80%;
+}
+.size {
+  width: 80%;
+}
+.green,
+.know {
+  /* class er belay . dite hoy */
+  background-color: lightgreen;
+  width: 80%;
+}
+.bold {
+  font-weight: bold;
+}
+input[submit] {
+  background-color: lightblue;
+  width: 100px;
+}
+button {
+  background-color: rgb(96, 211, 184);
+  height: 30px;
+  width: 80px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  /* cursor:all-scroll; */
+}
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+input[type="text"],
+input[type="password"] {
+  height: 25px;
+  width: 250px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding-left: 10px;
+}
+input[type="password"] {
+  color: red;
+}
+input[type="button"] {
+  background-color: rgb(96, 211, 184);
+  height: 30px;
+  width: 80px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+
+  /* display: block;
+            margin-left: auto; */
+
+  margin-left: 90px;
+}
+.cream {
+  background-color: #fffdd0;
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+
+  /* margin: 10px; all sides
+            margin: 10px 20px; tb lr
+            margin: 10px 20px 30px; t lr b
+            margin: 10px 20px 30px 40px; t r b l
+            */
+
+    border: 2px solid black;
+    box-shadow: 2px 3px gray;
+}
+.none {
+  background-color: transparent;
+}
+.food {
+  background-image: url('android-chrome-512x512.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Shikhbo</title>
+    <link rel="stylesheet" href="css.css" />
+    <!-- <style>
+        /* internal css  */
+        h3 {
+            color: green;
+        }
+        p {
+            font-family: Arial, Helvetica, sans-serif; 
+            /* uses arial first then helvetica if arial is not found then any sans-serif font */
+            
+        }
+        li {
+            font-size: 18px;
+            background-color: blanchedalmond;
+            width: 50%;
+        }
+        #grey {
+            /* id er belay # dite hoy */
+            background-color: lightgray;
+            width: 80%;
+        }
+        .size{
+            width: 80%;
+        }
+        .green, .know {
+            /* class er belay . dite hoy */
+            background-color: lightgreen;
+            width: 80%;
+        }
+        .bold{
+            font-weight: bold;
+        }
+        input[submit]{
+            background-color: lightblue;
+            width: 100px;
+        }
+        button{
+            background-color: rgb(96, 211, 184);
+            height: 30px;
+            width: 80px;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            /* cursor:all-scroll; */
+        }
+        *{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        input[type="text"], input[type="password"]{
+            height: 25px;
+            width: 250px;
+            border-radius: 5px;
+            border: 1px solid gray;
+            padding-left: 10px;
+        }
+        input[type="password"]{
+            color: red;
+        }
+        input[type="button"]{
+            background-color: rgb(96, 211, 184);
+            height: 30px;
+            width: 80px;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            text-align: center;
+
+            /* display: block;
+            margin-left: auto; */
+
+            margin-left: 90px;
+        }
+        .cream{
+            background-color: #fffdd0;
+            width: 50%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+
+            /* margin: 10px; all sides
+            margin: 10px 20px; tb lr
+            margin: 10px 20px 30px; t lr b
+            margin: 10px 20px 30px 40px; t r b l
+            */
+        }
+        .none{
+            background-color: transparent;
+        }
+    </style> -->
+  </head>
+  <body>
+    <h2 style="background-color: brown; color: white" class="size">
+      CSS Shikhbo
+    </h2>
+    <p
+      class="size"
+      style="
+        font-weight: bolder;
+        font-size: larger;
+        background-color: burlywood;
+      "
+    >
+      Welcome to the CSS learning page!
+    </p>
+
+    <form action="">
+      <input type="text" name="Name" placeholder="Enter your name" />
+      <br /><br />
+      <input
+        type="password"
+        name="Password"
+        placeholder="Enter your password"
+      />
+      <br /><br />
+      <input type="button" value="submit" />
+    </form>
+
+    <p class="bold size" style="font-size: larger; background-color: burlywood">
+      CSS : Cascading Style Sheets
+    </p>
+    <ul>
+      <li>Inline</li>
+      <li>Internal or Embedded</li>
+      <li>External</li>
+    </ul>
+
+    <!-- inline css  -->
+    <h3>Inline CSS</h3>
+    <p style="color: blue; font-size: 18px">
+      This is an example of inline CSS.
+    </p>
+
+    <!-- internal css  -->
+    <h3>Internal CSS</h3>
+    <p id="grey">1 px = 1/96 inch</p>
+    <p class="know">2 em means 2 times the current font size</p>
+    <p class="know">rem means root em</p>
+    <p class="green bold">
+      % means percentage of the parent element's font size
+    </p>
+
+    <h3>Different types of Selectors</h3>
+    <ul>
+      <li>Id Selector (#)</li>
+      <li>Class Selector (.)</li>
+      <li>Element Selector (tag name)</li>
+      <li>Universal Selector (*)</li>
+      <li>Attribute Selector ([attribute])</li>
+      <li>Grouping Selector (,)</li>
+    </ul>
+    <h3>What every box takes (Box Model)</h3>
+    <ul>
+      <li>Content</li>
+      <li>Padding</li>
+      <li>Border</li>
+      <li>Margin</li>
+    </ul>
+
+    <br />
+    <div>
+      <h3>My Porichoy</h3>
+      <p>Name: <span class="bold">Afia Jahin Rupali</span></p>
+      <p>Occupation: Student</p>
+      <p>Location: Bangladesh</p>
+    </div>
+    <div class="cream">
+      <h3>My Hobbies</h3>
+      <ul>
+        <li class="none">Reading</li>
+        <li class="none">Traveling</li>
+        <li class="none">Coding</li>
+      </ul>
+    </div>
+    <div class="cream food">
+      <h3>My Favorite Food</h3>
+      <ul>
+        <li class="none">Burger</li>
+        <li class="none">Red Meat</li>
+        <li class="none">Biryani</li>
+      </ul>
+    </div>
+  </body>
+</html>
