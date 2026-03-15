@@ -1,12 +1,104 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form</title>
-    <link rel="stylesheet" href="form.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <section>
+        <h2 id="Salami-header">Fill up the form to get Salami!</h2>
+        <form action="">
+          <label for="name"
+            >Name:
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="Your Name"
+            />
+          </label>
+
+          <label for="email"
+            >Email:
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="Your Email"
+            />
+          </label>
+
+          <label for="tel"
+            >Bkash Number:
+            <input
+              type="tel"
+              id="tel"
+              name="tel"
+              required
+              placeholder="Your Bkash Number"
+            />
+          </label>
+
+          <fieldset>
+            <legend>* Pick One Salami *</legend>
+            <label for="10">
+              <input type="radio" name="salami" id="10" value="10" required />
+              10 taka
+            </label>
+            <label for="20">
+              <input type="radio" name="salami" id="20" value="20" />
+              20 taka
+            </label>
+            <label for="50">
+              <input type="radio" name="salami" id="50" value="50" />
+              50 taka
+            </label>
+          </fieldset>
+          <br />
+          <fieldset>
+            <legend>* Which type of Eid Drips I'm gonna get?? *</legend>
+            <label for="1">
+              <input type="checkbox" name="drips" id="1" value="1" />
+              Sharee
+            </label>
+            <label for="2">
+              <input type="checkbox" name="drips" id="2" value="2" />
+              Salwar
+            </label>
+            <label for="3">
+              <input type="checkbox" name="drips" id="3" value="3" />
+              Kurti
+            </label>
+            <label for="4">
+              <input type="checkbox" name="drips" id="4" value="4" />
+              Panjabi
+            </label>
+            <label for="5">
+              <input type="checkbox" name="drips" id="5" value="5" />
+              Kabli
+            </label>
+          </fieldset>
+          <fieldset>
+            <legend>Any Suggestions?</legend>
+            <textarea
+              name="suggestions"
+              id="suggestions"
+              placeholder="Your suggestions here..."
+            ></textarea>
+          </fieldset>
+
+          <div>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
 </html>
