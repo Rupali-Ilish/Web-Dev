@@ -1,0 +1,27 @@
+
+h3{
+    text-align: center;
+}
+nav>ol{
+    text-align: center;
+}
+nav > ol > li{
+    display: inline;
+    margin-right: 30px;
+}
+/* nav er direct child ol, same ol er child li, li er child a */
+nav> ol > li > a{
+    text-decoration: none;
+    color: purple;
+    font-size: 20px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+    padding: 7px;
+    background-color: #f2f2f2;
+}
+article>footer{
+    background-color: aliceblue;
+}
