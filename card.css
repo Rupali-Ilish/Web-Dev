@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f6f0e4;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.card-container {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: burlywood 0px 4px 8px;
+  padding: 1rem;
+  width: 200px;
+}
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: burlywood 0px 4px 8px;
+}
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}

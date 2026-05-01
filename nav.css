@@ -1,0 +1,25 @@
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+/* > -> means direct child, > na dewa means shby */
+nav li a{
+    text-decoration: none;
+}
+nav li a:hover{
+    color: white;
+    background-color: blueviolet;
+}
+
+/* nested menu, hover korle ashbe noile na */
+nav ul .dropdown{
+    display: none;
+}
+/* nav er moddhe ul, then jei li er moddhe dropdown ase oi li e hover korle hbe */
+nav ul li:hover > .dropdown{
+    display: block;
+    position: absolute; /* kichui norbe na */
+    background-color: wheat;
+    padding: 5px;
+}
